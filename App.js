@@ -28,9 +28,10 @@ const App = () => {
           <Stack.Screen name="Menu" component={Menu}/>
           <Stack.Screen name="Register" component={Register} options={{ title: 'Nuevo Registro'}}/>
           <Stack.Screen name="ResetPassword" component={ResetPassword} options={{ title: 'Restablecer Contraseña'}}/>
-          <Stack.Screen name="Ubicacion" component={Ubicacion} options={{ title: 'Ubicacion'}}/>
+          <Stack.Screen name="Ubicacion" component={Ubicacion} options={{ title: 'Ubicacion'}}/> 
           <Stack.Screen name="DatosPaciente" component={DatosPaciente} options={{ title: 'Datos'}}/>
           <Stack.Screen name="DatosPaciente" component={DatosPaciente} options={{ title: 'Sele'}}/>
+
         </Stack.Navigator>
       </NavigationContainer>
     </View>
