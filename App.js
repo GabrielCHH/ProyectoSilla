@@ -30,6 +30,7 @@ const App = () => {
           <Stack.Screen name="ResetPassword" component={ResetPassword} options={{ title: 'Restablecer Contraseña'}}/>
           <Stack.Screen name="Ubicacion" component={Ubicacion} options={{ title: 'Ubicacion'}}/>
           <Stack.Screen name="DatosPaciente" component={DatosPaciente} options={{ title: 'Datos'}}/>
+          <Stack.Screen name="DatosPaciente" component={DatosPaciente} options={{ title: 'Sele'}}/>
         </Stack.Navigator>
       </NavigationContainer>
     </View>
