@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     },
     searchInput: {
         flex: 1,
-        height: 40,
+        height: 41,
         borderColor: 'gray',
         borderWidth: 1,
         paddingHorizontal: 10,
